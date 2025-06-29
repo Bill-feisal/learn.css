@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    position: fixed;
+    flex-direction: column;
+
+}
+header h1{
+    background-color: darkgoldenrod;
+    display: flex;
+}
