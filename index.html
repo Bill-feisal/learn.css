@@ -3,64 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Just university</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 <body>
-    <header><h1>Creating My Own Web Design </h1>
-        <nav>
-            <ul>
-            <li><a href="#">Home</a></li> &nbsp; &nbsp;&nbsp;
-            <li><a href="#">New</a></li>&nbsp; &nbsp;&nbsp;
-            <li><a href="#">View</a></li>&nbsp; &nbsp;&nbsp;
-            <li><a href="#">About Us</a></li>&nbsp; &nbsp;&nbsp;
-            <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h3>My Profel Picture</h3>
-        <section>
-        <img src="image/laptop image 2.webp" 
-        alt="laptops image" width="400px" height="250px">
-        <p>this is the compony of periparing laptops</p>
-        </section>
-        <hr>
-        <h3>Our Location</h3>
-        <ol>
-        <li>Around Bakaaaro</li>
-        <li>Banaadir</li>
-        <li>Hamar Weyne</li>
-        <li>Bakaaro</li>
-        <li>Baarubax</li>
-        </ol>
-         <hr>
-         <table border="1">
-            <tbody>
-                <tr>
-                    <th>First-name</th>
-                    <th>Last-name</th>
-                    <th>Email</th>
-                </tr>
-                <tr>
-                    <td>Bile</td>
-                    <td>Feysal</td>
-                    <td>bilefaisal@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Mohamud</td>
-                    <td>Mohamed</td>
-                    <td>Mohamudjigrey@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Nur</td>
-                    <td>Hashi</td>
-                    <td>Nurhashi@gmail.com</td>
-                </tr>
-            </tbody>
-         </table>
-    </main>
-    <footer><h3>&copy; Year 2025 All Rights Reserves</h3></footer>
-
+    <div  class="bg-blue-900 text-white py-3 px-10 flex justify-between">
+        <div>
+            <a class="mr-4" href="#"><i class="fa-solid fa-envelope"></i>info@just.edu.so</a>
+            <a href="#"><i class="fa-solid fa-location-dot"></i>Mogadishu,Somalia</a>
+        </div>
+        <div>
+            <a href="#">Jobs</a>
+            <a href="#">Alumni</a>
+            <a href="#">Verity</a>
+            <a href="#"><i class="fa-solid fa-id-badge"></i>Login</a>
+        </div>
+    </div>
+    <!-- main header -->
+     <div class="flex justify-between py-3 px-10 items-center ">
+        <div class="w-70">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div class="flex gap-4">
+            <a href="#">About Just</a>
+            <a href="#">Academics</a>
+            <a href="#">Admissions</a>
+            <a href="#">Research</a>
+            <a href="#">Centers</a>
+            <a href="#">Students</a>
+            <a href="#">Media</a>
+        </div>
+     </div>
+     <!-- hero section -->
+      <section class="h-screen w-full relative overflow-hidden after:w-full after:h-full after:bg-black/80 after:z-0 after:absolute after:top-0 after:left-0 ">
+        <video autoplay muted loop class="absolute -z-10 w-full h-full object-cover "  src="video/Jamhuriya University Of Science and Technology.mp4"></video>
+        <div class="relative z-10 h-full flex flex-col justify-center pl-30 text-white">
+            <p class="font-thin text-4xl">Home of Quality Education</p>
+            <h1 class="font-bold uppercase text-[40px]">Jamhuriya University of Science and Technology</h1>
+            <a href="#" class="p-3 bg-white border-l-4 text-green-600 border-green-600 w-[14%] rounded-md mt-5">About JUST University</a>
+        </div>
+      </section>
+      <!-- About section -->
+       <section  class="flex gap-9 h-[90vh] items-center justify-center" >
+        <div class="flex w-[80%] gap-14">
+            <div>
+                <h2 class="text-blue-900 font-bold text-4xl mb-4">We are different and we like it that way. JUST is
+                    professionally oriented university.</h2>
+                <p class="text-gray-400 text-lg">Our academic staff is not only some of the smartest but passionate
+                    about providing students with up to date curriculums and text books and producing experienced,
+                    engaged successful graduates.</p>
+                    <div class="flex gap-20 mt-10">
+                        <div>
+                            <h1 class="text-blue-900 font-bold text-4xl mb-3">4,000<i class="fa-solid fa-plus"></i></h1>
+                            <p class="text-gray-400 text-xl">Graduats</p>
+                        </div>
+                        <div>
+                            <h1 class="text-blue-900 font-bold text-4xl mb-3">5<i class="fa-solid fa-plus"></i></h1>
+                            <p class="text-gray-400 text-xl">Faculties</p>
+                        </div>
+                        <div>
+                            <h1 class="text-blue-900 font-bold text-4xl mb-3">35<i class="fa-solid fa-plus"></i></h1>
+                            <p class="text-gray-400 text-xl">Graduats</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="rounded-xl overflow-hidden">
+                <img src="image/slider2.jpg" alt="">
+            </div>
+        </div>
+       </section>
 </body>
 </html>
